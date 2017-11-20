@@ -25,5 +25,10 @@ app.use(Auth.authenticate);
 app.use('/users', require('./controllers/users_controller'));
 app.use('/login', require('./controllers/sessions_controller'));
 
+app.use('/twitter', require('./controllers/twitter_controller'));
+app.use('/sentiment', require('./controllers/twitter_controller'));
+app.use('/terms', require('./controllers/terms_controller'));
+// app.use('/sentiment', require('./controllers/twitter_controller'));
+
 // listen on port and run server
 app.listen(port, () => console.log('server listening on ' + port));

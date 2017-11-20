@@ -10,11 +10,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@google-cloud/language": "^1.1.0",
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.17.2",
     "cors": "^2.8.4",
+    "deferred-promise": "^3.0.1",
     "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.3.0",
     "morgan": "^1.8.2",
-    "pg-promise": "^6.3.7"
+    "pg-promise": "^6.3.7",
+    "react-highcharts": "^15.0.0",
+    "twit": "^2.2.9"
   }
 }
