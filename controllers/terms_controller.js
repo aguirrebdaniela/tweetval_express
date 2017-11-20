@@ -51,8 +51,8 @@ router.post('/results', Results.create, (req, res) => {
    router.get('/word/:word', Terms.findByWord, (req, res, next) => {
 	res.json({
 		terms: res.locals.terms
+	})
 	});	
-});
 
 
  
